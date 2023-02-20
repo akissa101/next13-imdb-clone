@@ -13,7 +13,7 @@ export default function NavbarItem({ title, param }) {
         className={`m-4 hover:text-sky-600 font-semibold p-2 ${
           genre &&
           genre === param &&
-          "underline underline-offset-8 decoration-4 decoration-sky-600 rounded-lg"
+          "underline underline-offset-8 decoration-4 decoration-sky-600 rounded-xl"
         }`}
         href={`/?genre=${param}`}
       >
